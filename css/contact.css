@@ -1,0 +1,52 @@
+.company tr{
+    height: 7rem; /* Line Height*/
+}
+
+.company th{
+    width: 150px; /* th width (150px)*/
+    padding: 0px;
+    text-align: right;  /* Align on right*/
+}
+
+
+.company td.border { /* Use td to create form field. Add class border to <td> and add a border*/
+    width: 480px;  
+    border: inset 1px #B1B1B1;
+    display: block;
+    margin: 2rem 10px 2rem;  /* 10px specify marge between label and form field*/
+    padding: 1rem 0;  
+}
+
+.radio{ /* Align of radio bottom*/
+    width: 480px;  
+    font-size: 1.5rem;
+    display: block;
+    margin: 2rem 10px 2rem; /* 10px specify marge between label and form field*/
+    padding: 1rem 0;  
+}
+
+.company textarea{ /* Textarea last form field*/
+    margin-left: 10px; /* 10px specify marge between label and form field*/
+    width: 480px;  
+}
+
+/* Save Button*/
+.save{
+    text-align: center;
+}
+.save button{
+    background-color: #008B8B;
+    font-size: 3rem;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.save button:hover{
+    opacity: 0.5; 
+}
+
+
+
+
